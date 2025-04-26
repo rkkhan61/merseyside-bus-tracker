@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>413019131773-1hma62e6o350fmuvcflrot5ut828352u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.413019131773-1hma62e6o350fmuvcflrot5ut828352u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABHpr7ArGYeP-2YewViw7Uf_IW6zyvEZM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>413019131773</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.raj.shivansh.Merseyside-bus</string>
+	<key>PROJECT_ID</key>
+	<string>merseyside-bus-tracking</string>
+	<key>STORAGE_BUCKET</key>
+	<string>merseyside-bus-tracking.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:413019131773:ios:e4931900a64fa34f98c614</string>
+</dict>
+</plist>

@@ -6,12 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		763F4DDE2DBD13C0004C5277 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 763F4DDD2DBD13C0004C5277 /* FirebaseAuth */; };
+		763F4DE02DBD13C0004C5277 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 763F4DDF2DBD13C0004C5277 /* FirebaseCore */; };
+		763F4DE22DBD13C0004C5277 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 763F4DE12DBD13C0004C5277 /* FirebaseFirestore */; };
+		763F4DE42DBD13C0004C5277 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 763F4DE32DBD13C0004C5277 /* FirebaseMessaging */; };
+		CB51FA4C2D99E76A00FD4EC5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = CB51FA4B2D99E76A00FD4EC5 /* GoogleSignIn */; };
+		CB51FA4E2D99E76A00FD4EC5 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CB51FA4D2D99E76A00FD4EC5 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CB51FA112D99DAEA00FD4EC5 /* Merseyside_bus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Merseyside_bus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CB51FA262D99DAEB00FD4EC5 /* Exceptions for "Merseyside_bus" folder in "Merseyside_bus" target */ = {
+		7612BA652DBD3CC900EBE2F4 /* Exceptions for "Merseyside_bus" folder in "Merseyside_bus" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -24,7 +33,7 @@
 		CB51FA132D99DAEA00FD4EC5 /* Merseyside_bus */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				CB51FA262D99DAEB00FD4EC5 /* Exceptions for "Merseyside_bus" folder in "Merseyside_bus" target */,
+				7612BA652DBD3CC900EBE2F4 /* Exceptions for "Merseyside_bus" folder in "Merseyside_bus" target */,
 			);
 			path = Merseyside_bus;
 			sourceTree = "<group>";
@@ -36,6 +45,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763F4DE42DBD13C0004C5277 /* FirebaseMessaging in Frameworks */,
+				CB51FA4C2D99E76A00FD4EC5 /* GoogleSignIn in Frameworks */,
+				763F4DDE2DBD13C0004C5277 /* FirebaseAuth in Frameworks */,
+				763F4DE02DBD13C0004C5277 /* FirebaseCore in Frameworks */,
+				763F4DE22DBD13C0004C5277 /* FirebaseFirestore in Frameworks */,
+				CB51FA4E2D99E76A00FD4EC5 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,12 @@
 			);
 			name = Merseyside_bus;
 			packageProductDependencies = (
+				CB51FA4B2D99E76A00FD4EC5 /* GoogleSignIn */,
+				CB51FA4D2D99E76A00FD4EC5 /* GoogleSignInSwift */,
+				763F4DDD2DBD13C0004C5277 /* FirebaseAuth */,
+				763F4DDF2DBD13C0004C5277 /* FirebaseCore */,
+				763F4DE12DBD13C0004C5277 /* FirebaseFirestore */,
+				763F4DE32DBD13C0004C5277 /* FirebaseMessaging */,
 			);
 			productName = Merseyside_bus;
 			productReference = CB51FA112D99DAEA00FD4EC5 /* Merseyside_bus.app */;
@@ -107,6 +128,10 @@
 			);
 			mainGroup = CB51FA082D99DAEA00FD4EC5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CB51FA4A2D99E76A00FD4EC5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				763F4DDC2DBD13C0004C5277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CB51FA122D99DAEA00FD4EC5 /* Products */;
 			projectDirPath = "";
@@ -333,6 +358,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		763F4DDC2DBD13C0004C5277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		CB51FA4A2D99E76A00FD4EC5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		763F4DDD2DBD13C0004C5277 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 763F4DDC2DBD13C0004C5277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		763F4DDF2DBD13C0004C5277 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 763F4DDC2DBD13C0004C5277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		763F4DE12DBD13C0004C5277 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 763F4DDC2DBD13C0004C5277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		763F4DE32DBD13C0004C5277 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 763F4DDC2DBD13C0004C5277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		CB51FA4B2D99E76A00FD4EC5 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB51FA4A2D99E76A00FD4EC5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		CB51FA4D2D99E76A00FD4EC5 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB51FA4A2D99E76A00FD4EC5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CB51FA092D99DAEA00FD4EC5 /* Project object */;
 }
